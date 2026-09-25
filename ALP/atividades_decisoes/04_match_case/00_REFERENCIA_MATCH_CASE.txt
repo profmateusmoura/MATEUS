@@ -1,0 +1,29 @@
+MODELO BÁSICO
+
+opcao = int(input("Opção: "))
+
+match opcao:
+    case 1:
+        print("Primeira opção")
+    case 2:
+        print("Segunda opção")
+    case _:
+        print("Opção inválida")
+
+
+MAIS DE UM VALOR NO MESMO CASE
+
+resposta = input("Resposta: ").upper()
+
+match resposta:
+    case "S" | "SIM":
+        print("Resposta positiva")
+    case "N" | "NAO" | "NÃO":
+        print("Resposta negativa")
+    case _:
+        print("Resposta inválida")
+
+
+IDEIA PRINCIPAL
+MATCH / CASE é especialmente claro quando comparamos UMA expressão
+com valores EXATOS e conhecidos.

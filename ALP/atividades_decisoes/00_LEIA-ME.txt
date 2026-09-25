@@ -1,0 +1,63 @@
+ATIVIDADES DE DECISÃO EM PYTHON
+===============================
+
+Objetivo
+--------
+Dar continuidade ao estudo de estruturas condicionais após IF / ELIF / ELSE,
+introduzindo MATCH / CASE e, principalmente, desenvolvendo a capacidade de
+ESCOLHER a estrutura mais adequada para cada problema.
+
+Requisito
+---------
+Python 3.10 ou superior, pois MATCH / CASE foi introduzido no Python 3.10.
+
+ORGANIZAÇÃO
+-----------
+04_match_case
+    Microatividades para aprender a sintaxe e o uso natural de MATCH / CASE.
+    Os problemas trabalham principalmente com valores exatos e opções discretas.
+
+05_escolha_de_estrategia
+    O aluno deve decidir se resolve com IF / ELIF / ELSE ou MATCH / CASE.
+    Antes do código há um espaço para justificar a escolha.
+
+06_if_e_match_combinados
+    Problemas em que IF e MATCH podem aparecer no mesmo programa.
+    O objetivo é perceber que as estruturas são complementares.
+
+07_revisao_de_decisoes
+    Exercícios mistos sem indicar previamente qual estrutura deve ser usada.
+
+08_desafios_de_decisao
+    Problemas um pouco mais completos, ainda sem laços ou funções obrigatórios.
+
+ORIENTAÇÃO PEDAGÓGICA
+---------------------
+Regra prática inicial para os alunos:
+
+- MATCH / CASE:
+  bom quando uma variável pode assumir valores EXATOS e conhecidos:
+  1, 2, 3; "A", "B", "C"; "+", "-", "*", "/"; códigos etc.
+
+- IF / ELIF / ELSE:
+  bom quando a decisão depende de:
+  comparações, intervalos, maior/menor, combinações com AND/OR/NOT,
+  mais de uma variável ou expressões lógicas.
+
+Essa é uma regra didática, não uma limitação absoluta da linguagem.
+
+Sugestão de uso
+---------------
+1. Fazer primeiro a pasta 04.
+2. Corrigir coletivamente 2 ou 3 exercícios.
+3. Trabalhar a pasta 05 exigindo a justificativa.
+4. Só depois avançar para 06 e 07.
+5. Usar 08 como fechamento, avaliação prática ou atividade em dupla.
+
+IMPORTANTE
+----------
+Os arquivos não possuem respostas prontas.
+O aluno deve escrever o código abaixo do comentário:
+
+    # ESCREVA SEU CÓDIGO ABAIXO
+
