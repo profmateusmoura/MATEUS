@@ -7,3 +7,6 @@ Use o laço for para percorrer a string.
 """
 
 # escreva seu código aqui
+
+for letra in ('Python'):
+    print(letra)

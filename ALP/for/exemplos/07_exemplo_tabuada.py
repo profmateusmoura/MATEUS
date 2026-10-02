@@ -6,4 +6,6 @@ Em cada volta, a operação 5 * numero é calculada.
 """
 
 for numero in range(1, 11):
-    print("5 x", numero, "=", 5 * numero)
+    for n in range(10,1,-1):
+        print(numero, "x", n, "=", numero * n )
+        print(numero, "/", n, "=", numero / n )

@@ -7,3 +7,6 @@ Use range com passo 5.
 """
 
 # escreva seu código aqui
+
+for numero in range (5, 51, 5):
+    print (numero)

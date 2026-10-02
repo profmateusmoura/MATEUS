@@ -11,5 +11,6 @@ range(1, 6)
 A variável numero recebe cada número da sequência.
 """
 
-for numero in range(1, 6):
+for numero in range(0, 60,5):
     print(numero)
+

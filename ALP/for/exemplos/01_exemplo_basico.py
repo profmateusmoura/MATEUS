@@ -17,6 +17,11 @@ Significado:
 A cada volta do laço, a variável letra recebe uma letra diferente:
 P, y, t, h, o, n.
 """
+import string
 
-for letra in "Python":
-    print(letra)
+list = (string.ascii_uppercase)
+#for letra in list :
+#    print(letra)
+    
+for i in range (1, len(list), 2):
+    print(list[i])
