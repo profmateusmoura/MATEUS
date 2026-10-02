@@ -14,7 +14,7 @@ for i in range(1, 6):
 print("Soma final:", soma)
 
 soma = 0
-for numero in range (1,11)
-print(f"numero")
-soma = soma + numero
-print("")
+for numero in range (1,11):
+    print(f"numero")
+    soma = soma + numero
+    print("")
